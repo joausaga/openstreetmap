@@ -7,7 +7,7 @@ Wrangling Open Street Map data through data munging techniques and assessing the
 3. Cleaned programmatically very large files
 4. Store cleaned data in MongoDB for future analyses
 
-## Case Study: Map of Asunción
+## Case Study: Asuncion's Map
 
 ### Problems found on the map
 After exploring a sample of data, I discovered issues in the name of the streets. Also, I found that some tag elements have keys named “type,” which forced me to use a different key name to identify the type of element in my MongoDB.

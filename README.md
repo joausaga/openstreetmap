@@ -15,29 +15,23 @@ After exploring a sample of data, I discovered issues in the name of the streets
 #### Inconsistent street name prefixes
 Firstly, the prefix of the street names (e.g., Ave.) was inconsistent. Some of them, use the full name Avenida (Avenue in Spanish) while others employ abbreviations (Avda.)
 
-**Example before the update**
-Avda. Bonifacio Obando Esq. Villa Florida
+*Example before the update*: Avda. Bonifacio Obando Esq. Villa Florida
 
-**Example after the update**
-Avenida Bonifacio Obando Esq. Villa Florida
+*Example after the update*: Avenida Bonifacio Obando Esq. Villa Florida
 
 #### Inconsistent person's name titles
 In Asuncion, streets are primarily named using names of personalities from politics, science, literature, militia, etc. In all cases, the street names of these historical people have prepended the title of the person, e.g., dr., ing. (engineer in Spanish). I found inconsistencies in the use of these titles, sometimes the full word is used (e.g., Doctor) other times an abbreviation of the title is employed (e.g., Dr.).
 
-**Example before the update**
-Dr. G. Rodríguez de Francia
+*Example before the update*: Dr. G. Rodríguez de Francia
 
-**Example after the update**
-Doctor G. Rodríguez de Francia
+*Example after the update*: Doctor G. Rodríguez de Francia
 
 #### Spanish names were wrongly written
 I found street names improperly written; specifically, they missed the accent.
 
-**Example before the update**
-Cerro Cora
+*Example before the update*: Cerro Cora
 
-**Example after the update**
-Cerro Corá
+*Example after the update*: Cerro Corá
 
 Before inserting into the MongoDB, I fixed these inconsistencies using the function update_street_name of the module audit_street_name
 
@@ -45,6 +39,7 @@ Before inserting into the MongoDB, I fixed these inconsistencies using the funct
 Here, I present some high-level information about the data
 
 File size: granasuncion_paraguay.osm ... 88.5 MB
+
 Collection size: asuncion ... 34.5 MB
 
 #### Number of records
